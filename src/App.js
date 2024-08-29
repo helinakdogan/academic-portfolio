@@ -7,7 +7,7 @@ import Header from "./component/Header";
 import Contact from "./component/Contact";
 import { capitalizeFirstLetter } from "./utils/helpers";
 import Education from "./component/Education";
-import Yayınlar from "./component/Yayınlar";
+import Publication from "./component/Publication";
 
 function App() {
   const [currentSelect, setCurrentSelect] = useState("Hakkında");
@@ -25,7 +25,7 @@ function App() {
       <Header currentSelect={currentSelect} />
       {currentSelect === "Hakkında" && <AboutMe />}
       {currentSelect === "Eğitim" && <Education />}
-      {currentSelect === "Yayınlar" && <Yayınlar />}
+      {currentSelect === "Yayınlar" && <Publication />}
       {currentSelect === "İletişim" && <Contact />}
       <Footer />
     </div>
