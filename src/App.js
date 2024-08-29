@@ -17,7 +17,7 @@ function App() {
   }, [currentSelect]);
 
   return (
-    <div className="bg-gray-200 dark:bg-gray-900 flex flex-col min-h-screen justify-between">
+    <div className="App flex flex-col min-h-screen justify-between">
       <Navbar
         currentSelect={currentSelect}
         setCurrentSelect={setCurrentSelect}

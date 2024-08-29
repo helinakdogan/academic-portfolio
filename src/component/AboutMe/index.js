@@ -6,14 +6,14 @@ const AboutMe = () => {
     <>
       <div className="container mx-auto flex flex-col flex-grow justify-center pb-8">
         <div className="flex flex-row flex-wrap justify-center">
-          <div className="flex w-full md:w-5/12 justify-center md:justify-end md:pr-3 md:border-r border-gray-300 dark:border-gray-500">
+          <div className="flex w-full md:w-5/12 justify-center md:justify-end md:pr-3 md:border-r border-gray-300">
             <img
-              className="mr-4 rounded-full h-64 w-64 border-4 shadow-sm border-white dark:border-gray-500 mb-3"
+              className="mr-4 rounded-full h-64 w-64 border-4 shadow-sm border-white"
               src={profile}
               alt="Profile"
             />
           </div>
-          <div className="w-full md:w-7/12 my-auto text-gray-700 dark:text-gray-200">
+          <div className="w-full md:w-7/12 my-auto text-gray-700 ">
             <h1 className="text-4xl font-bold text-center py-4">
               Ramazan Akdoğan <span className="text-blue-500"></span>
             </h1>
