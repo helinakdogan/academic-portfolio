@@ -1,5 +1,9 @@
 import React from "react";
 import profile from "../../assets/img/profile.jpeg";
+import bm3 from "../../assets/img/bm3.png";
+import bm9 from "../../assets/img/bm9.png";
+import bm10 from "../../assets/img/bm10.png";
+import bm13 from "../../assets/img/bm13.png";
 
 const AboutMe = () => {
   return (
@@ -18,18 +22,24 @@ const AboutMe = () => {
               Prof. Dr. Ramazan Akdoğan
             </h1>
             <p className="text-lg md:text-xl pl-4 pr-4 md:pr-9 text-white">
-              Doç. Dr. Ramazan Akdoğan Hacettepe Üniversitesi Psikoloji bölümünden 1995 yılında lisans, Anadolu Üniversitesi Rehberlik ve Psikolojik Danışmanlık anabilim dalından 2007 yılında yüksek lisans ve 2012 yılında doktora eğitimlerini tamamlamıştır. Doktora eğitimini takiben Anadolu Üniversitesi Rehberlik ve Psikolojik Danışmanlık anabilim dalına öğretim üyesi olarak atanmış ve 2018 yılında doçent ünvanı almıştır. Lisansüstü çalışmalarından önce uzun bir süre çeşitli kurumlarda psikolog veya psikolojik danışman olarak çalışmayı seçmiştir.
+              Doç. Dr. Ramazan Akdoğan Hacettepe Üniversitesi Psikoloji
+              bölümünden 1995 yılında lisans, Anadolu Üniversitesi Rehberlik ve
+              Psikolojik Danışmanlık anabilim dalından 2007 yılında yüksek
+              lisans ve 2012 yılında doktora eğitimlerini tamamlamıştır. Doktora
+              eğitimini takiben Anadolu Üniversitesi Rehberlik ve Psikolojik
+              Danışmanlık anabilim dalına öğretim üyesi olarak atanmış ve 2018
+              yılında doçent ünvanı almıştır. Lisansüstü çalışmalarından önce
+              uzun bir süre çeşitli kurumlarda psikolog veya psikolojik danışman
+              olarak çalışmayı seçmiştir.
             </p>
           </div>
         </div>
         <div className="flex flex-col items-center mb-12">
-          <h2 className="text-3xl font-bold mb-4 text-gray-600">
-            Metrikler
-          </h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-600">Metrikler</h2>
           <div className="flex flex-wrap gap-4 justify-center">
             <div className="p-4 rounded-lg bg-gradient-to-r from-blue-500 to-blue-300 text-white w-full sm:w-60 md:w-64 shadow-lg">
-              <h3 className="text-lg font-semibold">Yayın</h3>
-              <p className="text-xl font-bold">62</p>
+              <h3 className="text-lg font-semibold">H-İndeks (TrDizin)</h3>
+              <p className="text-xl font-bold">2</p>
             </div>
             <div className="p-4 rounded-lg bg-gradient-to-r from-green-500 to-green-300 text-white w-full sm:w-60 md:w-64 shadow-lg">
               <h3 className="text-lg font-semibold">Atıf (WoS)</h3>
@@ -69,6 +79,23 @@ const AboutMe = () => {
             </div>
           </div>
         </div>
+        <div className="flex flex-col items-center mb-12">
+  <h2 className="text-3xl font-bold mb-4 text-gray-600">BM Sürdürülebilir Kalkınma Amaçları</h2>
+  <div className="flex flex-wrap gap-4 justify-center">
+    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+      <img src={bm3} alt="bm3" className="w-50 h-50 mx-auto" />
+    </div>
+    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+      <img src={bm9} alt="bm3" className="w-50 h-50 mx-auto" />
+    </div>
+    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+      <img src={bm10} alt="bm3" className="w-50 h-50 mx-auto" />
+    </div>
+    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+      <img src={bm13} alt="bm3" className="w-50 h-50 mx-auto" />
+    </div>
+  </div>
+</div>
       </div>
     </>
   );
