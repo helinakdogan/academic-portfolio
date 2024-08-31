@@ -10,6 +10,8 @@ import { capitalizeFirstLetter } from "./utils/helpers";
 import Education from "./component/Education";
 import Publication from "./component/Publication";
 import Lecture from "./component/Lecture";
+import Award from "./component/Award";
+import Announcement from "./component/Announcement";
 
 function App() {
   const [currentSelect, setCurrentSelect] = useState("Hakkında");
@@ -26,10 +28,12 @@ function App() {
       />
       <Header currentSelect={currentSelect} />
       {currentSelect === "Hakkında" && <AboutMe />}
+      {currentSelect === "Duyurular" && <Announcement />}
       {currentSelect === "Eğitim" && <Education />}
       {currentSelect === "Yayınlar" && <Publication />}
       {currentSelect === "Projeler" && <Project />}
       {currentSelect === "Verdiği Dersler" && <Lecture />}
+      {currentSelect === "Ödüller" && <Award />}
       {currentSelect === "İletişim" && <Contact />}
       <Footer />
     </div>
