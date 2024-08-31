@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./App.css";
 import Footer from "./component/Footer";
 import Navbar from "./component/Navbar";
+import Project from "./component/Project";
 import AboutMe from "./component/AboutMe";
 import Header from "./component/Header";
 import Contact from "./component/Contact";
@@ -26,6 +27,7 @@ function App() {
       {currentSelect === "Hakkında" && <AboutMe />}
       {currentSelect === "Eğitim" && <Education />}
       {currentSelect === "Yayınlar" && <Publication />}
+      {currentSelect === "Projeler" && <Project />}
       {currentSelect === "İletişim" && <Contact />}
       <Footer />
     </div>

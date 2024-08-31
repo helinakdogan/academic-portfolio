@@ -1,101 +1,7 @@
 import React, { useState } from "react";
+import publications from "./publicationData";
 
-// Sample data for publications
-const publications = [
-  {
-    category: "SCI, SSCI ve AHCI İndekslerine Giren Dergilerde Yayınlanan Makaleler",
-    items: [
-      {
-        year: "2024",
-        title:
-          "Turkish adolescents' anonymous use of social networking sites (SNSs): A phenomenological study",
-        authors: "Çimşir E., Akdoğan R., Akbayrak A.",
-        journal:
-          "PSYCHOLOGY IN THE SCHOOLS, sa.-, ss.1-18, 2024 (SSCI)",
-        description: "Creative Commons License Sürdürülebilir Kalkınma PlumX Metrics",
-        pdfLink: "https://example.com/pdf1", // Example link, replace with a real link
-      },
-      {
-        year: "2024",
-        title:
-          "Inferiority feelings and internet addiction among Turkish University students in the context of COVID-19: The mediating role of emotion dysregulation",
-        authors: "Çimşir E., Akdoğan R.",
-        journal:
-          "Current Psychology, cilt.43, sa.5, ss.4245-4254, 2024 (SSCI)",
-        description: "Creative Commons License identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf2", // Example link, replace with a real link
-      },
-      {
-        year: "2022",
-        title:
-          "Collectivistic ambivalence: A potential source of social anxiety for individuals with higher inferiority feelings",
-        authors: "Akdoğan R., Çimşir E.",
-        journal:
-          "INTERNATIONAL JOURNAL OF INTERCULTURAL RELATIONS, cilt.89, ss.195-207, 2022 (SSCI)",
-        description: "Creative Commons License identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf3", // Example link, replace with a real link
-      },
-      {
-        year: "2021",
-        title:
-          "Childhood Emotional Incest Scale (CEIS): Development, Validation, Cross-Validation, and Reliability",
-        authors: "Çimşir E., Akdoğan R.",
-        journal:
-          "JOURNAL OF COUNSELING PSYCHOLOGY, cilt.68, sa.1, ss.98-111, 2021 (SSCI)",
-        description: "Creative Commons License identifier identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf4", // Example link, replace with a real link
-      },
-      {
-        year: "2020",
-        title: "Mental health of parents as a factor in dealing with Autism",
-        authors: "Tümlü C., Akdoğan R., Diken İ. H.",
-        journal:
-          "SOCIAL SCIENCE JOURNAL, 2020 (SSCI)",
-        description: "Creative Commons License Sürdürülebilir Kalkınma identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf5", // Example link, replace with a real link
-      },
-      {
-        year: "2020",
-        title:
-          "Does insight lead to happiness through providing satisfaction in romantic relationships?",
-        authors: "Akdoğan R., Çimşir E.",
-        journal: "SOCIAL SCIENCE JOURNAL, 2020 (SSCI)",
-        description: "Creative Commons License identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf6", // Example link, replace with a real link
-      },
-      {
-        year: "2019",
-        title:
-          "Linking inferiority feelings to subjective happiness: Self-concealment and loneliness as serial mediators",
-        authors: "Akdoğan R., Çimşir E.",
-        journal:
-          "PERSONALITY AND INDIVIDUAL DIFFERENCES, cilt.149, ss.14-20, 2019 (SSCI)",
-        description: "Creative Commons License identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf7", // Example link, replace with a real link
-      },
-      {
-        year: "2018",
-        title:
-          "Insight Scale for Nonclinical University Students: Validity and Reliability Analysis",
-        authors: "Akdoğan R., Türküm A. S.",
-        journal:
-          "MEASUREMENT AND EVALUATION IN COUNSELING AND DEVELOPMENT, cilt.51, sa.4, ss.250-262, 2018 (SSCI)",
-        description: "Creative Commons License identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf8", // Example link, replace with a real link
-      },
-      {
-        year: "2017",
-        title:
-          "A model proposal on the relationships between loneliness, insecure attachment, and inferiority feelings",
-        authors: "Akdoğan R.",
-        journal:
-          "PERSONALITY AND INDIVIDUAL DIFFERENCES, cilt.111, ss.19-24, 2017 (SSCI)",
-        description: "Creative Commons License identifier identifier PlumX Metrics",
-        pdfLink: "https://example.com/pdf9", // Example link, replace with a real link
-      },
-    ],
-  },
-];
+console.log(publications);
 
 const PublicationTimeline = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -129,16 +35,21 @@ const PublicationTimeline = () => {
                     key={pubIndex}
                     className="mb-8 flex flex-col md:flex-row items-center md:items-start relative"
                   >
-                    <div className="hidden md:block w-4 h-4 bg-blue-400 rounded-full absolute left-0 transform -translate-x-1/2 z-10"></div>
+                    {/* Updated Circle with Gradient */}
+                    <div
+                      className="hidden md:block w-4 h-4 rounded-full absolute left-0 transform -translate-x-1/2 z-10"
+                      style={{
+                        background: pub.gradient,
+                      }}
+                    ></div>
                     <div className="md:pl-12 flex flex-col items-start md:items-start w-full">
                       <div
                         className="flex items-start justify-between w-full p-6 rounded-lg shadow-md relative"
                         style={{
-               
-                          background: "linear-gradient(-111.4deg, rgb(122, 192, 233) 18.8%, #318CE7",
+                          background: pub.gradient,
                           boxShadow: "none",
                           maxWidth: "100%",
-                          width: "100%", // Adjust width for a more expansive card
+                          width: "100%",
                         }}
                       >
                         <div className="flex-1 text-left">
