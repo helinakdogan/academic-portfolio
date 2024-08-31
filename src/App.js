@@ -9,6 +9,7 @@ import Contact from "./component/Contact";
 import { capitalizeFirstLetter } from "./utils/helpers";
 import Education from "./component/Education";
 import Publication from "./component/Publication";
+import Lecture from "./component/Lecture";
 
 function App() {
   const [currentSelect, setCurrentSelect] = useState("Hakkında");
@@ -28,6 +29,7 @@ function App() {
       {currentSelect === "Eğitim" && <Education />}
       {currentSelect === "Yayınlar" && <Publication />}
       {currentSelect === "Projeler" && <Project />}
+      {currentSelect === "Verdiği Dersler" && <Lecture />}
       {currentSelect === "İletişim" && <Contact />}
       <Footer />
     </div>

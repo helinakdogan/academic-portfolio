@@ -108,6 +108,18 @@ const Navbar = ({ currentSelect, setCurrentSelect }) => {
             </li>
             <li>
               <button
+                onClick={() => { setCurrentSelect("Verdiği Dersler"); setIsOpen(false); }}
+                className={`${
+                  currentSelect === "Verdiği Dersler"
+                    ? "text-gray-700 bg-gray-300 dark:bg-gray-600 dark:text-white rounded"
+                    : "dark:text-gray-400 text-gray-100"
+                } w-full py-2 pr-4 pl-3 text-gray-700 hover:text-white hover:bg-gray-400 md:border-0 hover:rounded md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-gray-600 dark:border-gray-700`}
+              >
+                Verdiği Dersler
+              </button>
+            </li>
+            <li>
+              <button
                 href="/"
                 onClick={() => { setCurrentSelect("İletişim"); setIsOpen(false); }}
                 className={`${

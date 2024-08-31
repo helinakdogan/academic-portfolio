@@ -9,7 +9,7 @@ const AboutMe = () => {
   return (
     <>
       <div className="container mx-auto flex flex-col flex-grow justify-center items-center pb-8">
-        <div className="flex flex-col md:flex-row items-center justify-center mb-16 bg-gradient-to-r from-blue-900 to-blue-900 p-6 rounded-lg shadow-2xl w-full md:w-10/12 lg:w-8/12">
+        <div className="flex flex-col md:flex-row items-center justify-center mb-16 bg-gradient-to-r from-purple-500 to-purple-600 p-6 rounded-lg shadow-2xl w-full md:w-10/12 lg:w-8/12">
           <div className="flex w-full md:w-5/12 justify-center md:justify-end md:pr-3 md:border-r border-gray-300">
             <img
               className="mr-4 rounded-full h-48 w-48 md:h-64 md:w-64 border-4 shadow-2xl border-white"
@@ -80,22 +80,24 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="flex flex-col items-center mb-12">
-  <h2 className="text-3xl font-bold mb-4 text-gray-600">BM Sürdürülebilir Kalkınma Amaçları</h2>
-  <div className="flex flex-wrap gap-4 justify-center">
-    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
-      <img src={bm3} alt="bm3" className="w-50 h-50 mx-auto" />
-    </div>
-    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
-      <img src={bm9} alt="bm3" className="w-50 h-50 mx-auto" />
-    </div>
-    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
-      <img src={bm10} alt="bm3" className="w-50 h-50 mx-auto" />
-    </div>
-    <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
-      <img src={bm13} alt="bm3" className="w-50 h-50 mx-auto" />
-    </div>
-  </div>
-</div>
+          <h2 className="text-3xl font-bold mb-4 text-gray-600">
+            BM Sürdürülebilir Kalkınma Amaçları
+          </h2>
+          <div className="flex flex-wrap gap-4 justify-center">
+            <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+              <img src={bm3} alt="bm3" className="w-50 h-50 mx-auto" />
+            </div>
+            <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+              <img src={bm9} alt="bm3" className="w-50 h-50 mx-auto" />
+            </div>
+            <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+              <img src={bm10} alt="bm3" className="w-50 h-50 mx-auto" />
+            </div>
+            <div className="p-4 rounded-lg bg-gray-300 text-white w-50 h-50 shadow-lg">
+              <img src={bm13} alt="bm3" className="w-50 h-50 mx-auto" />
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
