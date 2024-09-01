@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import publications from "./publicationData";
-
-console.log(publications);
+import publications, { getGradientByCategory } from "./publicationData";
 
 const PublicationTimeline = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +18,13 @@ const PublicationTimeline = () => {
   return (
     <div className="container mx-auto flex flex-col flex-grow justify-center pb-8 px-4">
       {publications.map((section, index) => (
-        <div key={index} className="relative mb-12">
+        <div
+          key={index}
+          className="relative mb-12 animate-fadeIn"
+          style={{
+            animation: 'fadeIn 0.6s ease-out'
+          }}
+        >
           <div className="w-full md:w-11/12 lg:w-5/6 p-6 bg-transparent dark:bg-gray-700 rounded-lg mb-8 relative z-10 mx-auto">
             <h1 className="text-3xl md:text-3xl font-bold text-gray-800 dark:text-gray-100 mb-6">
               <span className="text-gray-500">{section.category}</span>
@@ -33,21 +37,23 @@ const PublicationTimeline = () => {
                 {section.items.map((pub, pubIndex) => (
                   <div
                     key={pubIndex}
-                    className="mb-8 flex flex-col md:flex-row items-center md:items-start relative"
+                    className="mb-8 flex flex-col md:flex-row items-center md:items-start relative animate-fadeIn"
+                    style={{
+                      animation: `fadeIn ${0.6 + pubIndex * 0.2}s ease-out`
+                    }}
                   >
-                    {/* Updated Circle with Gradient */}
                     <div
                       className="hidden md:block w-4 h-4 rounded-full absolute left-0 transform -translate-x-1/2 z-10"
                       style={{
-                        background: pub.gradient,
+                        background: getGradientByCategory(section.category),
                       }}
                     ></div>
                     <div className="md:pl-12 flex flex-col items-start md:items-start w-full">
                       <div
-                        className="flex items-start justify-between w-full p-6 rounded-lg shadow-md relative"
+                        className="flex items-start justify-between w-full p-6 rounded-lg shadow-md relative transition-transform transform hover:scale-105 hover:shadow-xl"
                         style={{
-                          background: pub.gradient,
-                          boxShadow: "none",
+                          background: getGradientByCategory(section.category),
+                          boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
                           maxWidth: "100%",
                           width: "100%",
                         }}
@@ -65,7 +71,7 @@ const PublicationTimeline = () => {
                         </div>
                         <button
                           onClick={() => openModal(pub)}
-                          className="absolute bottom-3 right-3 px-4 py-2 bg-white text-blue-500 font-semibold rounded shadow-md hover:bg-blue-50 transition duration-200"
+                          className="absolute bottom-3 right-3 px-4 py-2 bg-white text-gray-500 font-semibold rounded shadow-md hover:bg-blue-50 transition duration-200"
                         >
                           Detayları Gör
                         </button>
@@ -82,7 +88,12 @@ const PublicationTimeline = () => {
       {/* Custom Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-          <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-11/12 max-w-2xl p-8 relative">
+          <div
+            className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-11/12 max-w-2xl p-8 relative animate-fadeIn"
+            style={{
+              animation: 'fadeIn 0.5s ease-out'
+            }}
+          >
             {selectedPublication && (
               <>
                 <button
