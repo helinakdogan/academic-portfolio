@@ -89,7 +89,7 @@ const PublicationTimeline = () => {
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div
-            className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-11/12 max-w-2xl p-8 relative animate-fadeIn"
+            className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-full max-w-3xl p-10 relative animate-fadeIn"
             style={{
               animation: 'fadeIn 0.5s ease-out'
             }}
@@ -116,12 +116,12 @@ const PublicationTimeline = () => {
                     {selectedPublication.description}
                   </p>
                 )}
-                <div className="mt-4">
+                <div className="mt-6">
                   <a
                     href={selectedPublication.pdfLink}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
+                    className="px-5 py-3 bg-blue-900 text-white font-semibold rounded-lg hover:bg-blue-800 transition duration-200"
                   >
                     PDF'yi İncele
                   </a>

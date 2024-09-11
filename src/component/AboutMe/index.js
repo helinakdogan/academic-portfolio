@@ -43,9 +43,9 @@ const AboutMe = () => {
           {[
             { title: "H-İndeks (TrDizin)", value: "2", color: "from-blue-500 to-blue-300" },
             { title: "Atıf (WoS)", value: "312", color: "from-green-500 to-green-300" },
-            { title: "H-İndeks (WoS)", value: "12", color: "from-yellow-500 to-yellow-300" },
+            { title: "H-İndeks (WoS)", value: "5", color: "from-yellow-500 to-yellow-300" },
             { title: "Atıf (Scopus)", value: "110", color: "from-red-500 to-red-300" },
-            { title: "H-İndeks (Scopus)", value: "14", color: "from-purple-500 to-purple-300" },
+            { title: "H-İndeks (Scopus)", value: "5", color: "from-purple-500 to-purple-300" },
             { title: "Atıf (TrDizin)", value: "11", color: "from-teal-500 to-teal-300" },
             { title: "H-İndeks (TrDizin)", value: "2", color: "from-orange-500 to-orange-300" },
             { title: "Proje", value: "6", color: "from-pink-500 to-pink-300" },
