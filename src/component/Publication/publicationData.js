@@ -30,19 +30,19 @@ const publications = [
       {
         year: "2024",
         title:
-          "Unveiling the relationships between eco-anxiety, psychological symptoms and anthropocentric narcissism: The psychometric properties of the Turkish version of the Hogg eco-anxiety scale",
-        authors: "ÇİMŞİR E., ŞAHİN M. D., AKDOĞAN R.",
-        journal: "CAMBRIDGE PRISMS-GLOBAL MENTAL HEALTH, 2024 (SCI-Expanded)",
-        pdfLink: "https://example.com/pdf2", // Example link, replace with a real link
+          "Inferiority feelings and internet addiction among Turkish University students in the context of COVID-19: The mediating role of emotion dysregulation",
+        authors: "Çimşir E., Akdoğan R.",
+        journal: "Current Psychology, cilt.43, sa.5, ss.4245-4254, 2024 (SSCI)",
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/7d5cfacf-437b-48ff-ae80-418ff7fea2d2/inferiority-feelings-and-internet-addiction-among-turkish-university-students-in-the-context-of-covid-19-the-mediating-role-of-emotion-dysregulation", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
         year: "2024",
         title:
-          "Inferiority feelings and internet addiction among Turkish University students in the context of COVID-19: The mediating role of emotion dysregulation",
-        authors: "Çimşir E., Akdoğan R.",
-        journal: "Current Psychology, cilt.43, sa.5, ss.4245-4254, 2024 (SSCI)",
-        pdfLink: "https://avesis.anadolu.edu.tr/yayin/7d5cfacf-437b-48ff-ae80-418ff7fea2d2/inferiority-feelings-and-internet-addiction-among-turkish-university-students-in-the-context-of-covid-19-the-mediating-role-of-emotion-dysregulation", // Example link, replace with a real link
+          "Unveiling the relationships between eco-anxiety, psychological symptoms and anthropocentric narcissism: The psychometric properties of the Turkish version of the Hogg eco-anxiety scale",
+        authors: "ÇİMŞİR E., ŞAHİN M. D., AKDOĞAN R.",
+        journal: "CAMBRIDGE PRISMS-GLOBAL MENTAL HEALTH, 2024 (SCI-Expanded)",
+        pdfLink: "https://www.cambridge.org/core/journals/global-mental-health/article/unveiling-the-relationships-between-ecoanxiety-psychological-symptoms-and-anthropocentric-narcissism-the-psychometric-properties-of-the-turkish-version-of-the-hogg-ecoanxiety-scale/92DAAABDB5B1D070059A1EF58C17C751", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -52,7 +52,7 @@ const publications = [
         authors: "Akdoğan R., Çimşir E.",
         journal:
           "INTERNATIONAL JOURNAL OF INTERCULTURAL RELATIONS, cilt.89, ss.195-207, 2022 (SSCI)",
-        pdfLink: "https://example.com/pdf4", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/623226ce-7b9e-4a9f-84b2-faf4526da18a/collectivistic-ambivalence-a-potential-source-of-social-anxiety-for-individuals-with-higher-inferiority-feelings", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -62,7 +62,7 @@ const publications = [
         authors: "Çimşir E., Akdoğan R.",
         journal:
           "JOURNAL OF COUNSELING PSYCHOLOGY, cilt.68, sa.1, ss.98-111, 2021 (SSCI)",
-        pdfLink: "https://example.com/pdf5", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/469ec73f-747a-4ff7-8ccd-2795a882bcf2/childhood-emotional-incest-scale-ceis-development-validation-cross-validation-and-reliability", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -70,7 +70,7 @@ const publications = [
         title: "Mental health of parents as a factor in dealing with Autism",
         authors: "Tümlü C., Akdoğan R., Diken İ. H.",
         journal: "SOCIAL SCIENCE JOURNAL, 2020 (SSCI)",
-        pdfLink: "https://example.com/pdf6", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/1d48bc6c-3bf2-4606-baac-97de4f1d7ff8/mental-health-of-parents-as-a-factor-in-dealing-with-autism", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -79,7 +79,7 @@ const publications = [
           "Does insight lead to happiness through providing satisfaction in romantic relationships?",
         authors: "Akdoğan R., Çimşir E.",
         journal: "SOCIAL SCIENCE JOURNAL, 2020 (SSCI)",
-        pdfLink: "https://example.com/pdf7", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/3c7f298f-47da-49eb-b3e5-546e9a3210af/does-insight-lead-to-happiness-through-providing-satisfaction-in-romantic-relationships", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -89,7 +89,7 @@ const publications = [
         authors: "Akdoğan R., Çimşir E.",
         journal:
           "PERSONALITY AND INDIVIDUAL DIFFERENCES, cilt.149, ss.14-20, 2019 (SSCI)",
-        pdfLink: "https://example.com/pdf8", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/81aaeaee-e457-4236-b983-0c4eb1c3658d/linking-inferiority-feelings-to-subjective-happiness-self-concealment-and-loneliness-as-serial-mediators", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -99,7 +99,7 @@ const publications = [
         authors: "Akdoğan R., Türküm A. S.",
         journal:
           "MEASUREMENT AND EVALUATION IN COUNSELING AND DEVELOPMENT, cilt.51, sa.4, ss.250-262, 2018 (SSCI)",
-        pdfLink: "https://example.com/pdf9", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/f781122e-e3fc-4453-a1a9-c8c20ef03678/insight-scale-for-nonclinical-university-students-validity-and-reliability-analysis", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
       {
@@ -109,7 +109,7 @@ const publications = [
         authors: "Akdoğan R.",
         journal:
           "PERSONALITY AND INDIVIDUAL DIFFERENCES, cilt.111, ss.19-24, 2017 (SSCI)",
-        pdfLink: "https://example.com/pdf10", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/006731a5-68a9-4a9a-ac72-8abb1b01ad76/a-model-proposal-on-the-relationships-between-loneliness-insecure-attachment-and-inferiority-feelings", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #F8BBD0, #EC407A)", // Custom gradient
       },
     ],
@@ -124,7 +124,7 @@ const publications = [
         authors: "Ülker Tümlü G., Akdoğan R.",
         journal:
           "INTERNATIONAL JOURNAL FOR THE ADVANCEMENT OF COUNSELLING, cilt.44, sa.1, ss.17-38, 2022 (ESCI)",
-        pdfLink: "https://example.com/pdf10", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/40de8178-5caa-4771-899f-af3f5043f598/persistence-in-the-face-of-ecological-challenges-a-phenomenological-study-of-parents-of-children-with-disabilities-in-turkey", 
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -133,7 +133,7 @@ const publications = [
         authors: "Akdoğan R., Can G.",
         journal:
           "İstanbul Üniversitesi Kadın Araştırmaları Dergisi (Online), cilt.19, ss.1-13, 2020 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf11", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/78e7fcfd-3aed-46ff-9493-7e474839cf02/utangaclikta-cinsiyet-rolu-bir-risk-faktoru-mu", 
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -143,7 +143,7 @@ const publications = [
         authors: "Çimşir E., Akdoğan R.",
         journal:
           "Kalem Uluslararası Eğitim ve İnsan Bilimleri Dergisi, cilt.10, sa.2, ss.679-703, 2020 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf12", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/c298d460-a3ac-498e-bc95-4de781360ad1/ilkogretimde-cinsiyete-dayali-mesleki-kalip-yargilarlamucadele-bir-rehberlik-etkinligi-ornegi", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -153,7 +153,7 @@ const publications = [
         authors: "Tümlü C., Akdoğan R.",
         journal:
           "INTERNATIONAL JOURNAL FOR THE ADVANCEMENT OF COUNSELLING, cilt.41, sa.2, ss.252-271, 2019 (ESCI)",
-        pdfLink: "https://example.com/pdf13", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/d2a55db3-b463-4498-b0ea-42ab20d8d019/looking-at-life-through-a-different-window-group-counselling-for-the-mothers-of-disabled-children", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -163,7 +163,7 @@ const publications = [
         authors: "Çimşir E., Akdoğan R.",
         journal:
           "Anadolu Journal of Educational Sciences International, cilt.9, ss.111-128, 2019 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf14", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/14a46c53-dd05-4d23-ad34-af7c80bc0b2d/yalnizlik-ve-yetersizlik-duygusu-arasindaki-iliskide-kendini-saklamanin-araci-rolu", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -173,7 +173,7 @@ const publications = [
         authors: "Tümlü C., Akdoğan R.",
         journal:
           "Anadolu Journal of Educational Sciences International, cilt.9, sa.1, ss.129-162, 2019 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf15", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/ad2ce8d6-cc5a-4766-ad52-1789cbbfc984/otizmli-cocuk-ebeveynlerinde-evlilik-doyumunun-dinamikleri-bir-karma-calisma", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -183,7 +183,7 @@ const publications = [
         authors: "Akdoğan R., Aydın M., Eken H.",
         journal:
           "JOURNAL OF INDIVIDUAL PSYCHOLOGY, cilt.74, sa.1, ss.96-116, 2018 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf16", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/69b1ece4-4319-4b2b-966f-30e066448971/understanding-the-contribution-of-abnormal-inferiority-feelings-on-insecure-attachment-through-gender-and-culture-a-study-of-university-students-seeking-psychological-support", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -193,7 +193,7 @@ const publications = [
         authors: "Ülker Tümlü G., Akdoğan R., Türküm A. S.",
         journal:
           "INTERNATIONAL JOURNAL OF EARLY CHILDHOOD SPECIAL EDUCATION, cilt.9, sa.2, ss.81-98, 2017 (ESCI)",
-        pdfLink: "https://example.com/pdf17", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/11345728-69f0-42e5-b689-536520a5c187/the-process-of-group-counseling-based-on-reality-therapy-applied-to-the-parents-of-children-with-disabilities", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -203,7 +203,7 @@ const publications = [
         authors: "Akdoğan R.",
         journal:
           "INTERNATIONAL JOURNAL OF EARLY CHILDHOOD SPECIAL EDUCATION, cilt.8, sa.2, ss.134-150, 2016 (ESCI)",
-        pdfLink: "https://example.com/pdf18", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/a14cb2e1-79c4-4b78-8ed4-b859c2d2aeda/a-holistic-approach-to-cope-with-depression-and-hopelessness-for-parents-of-special-needs-children", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -213,7 +213,7 @@ const publications = [
         authors: "Akdoğan R., Ceyhan E.",
         journal:
           "Türk Psikolojik Danışma ve Rehberlik Dergisi, cilt.5, sa.41, ss.117-128, 2014 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf19", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/2a07c3ab-6fac-43c3-9c9f-d955e42a0b55/universite-ogrencileri-icin-yetersizlik-duygusu-olcegi-nin-gelistirilmesi-gecerlik-ve-guvenirlik-analizleri-turk-psikolojik-danisma-ve-rehberlik-dergisi-5-41-117-128", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -232,7 +232,7 @@ const publications = [
         authors: "Akdoğan R., Türküm A. S.",
         journal:
           "CURRENT APPROACHES IN PSYCHIATRY, cilt.6, sa.4, ss.375-388, 2014 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf21", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/472a6f0b-fb53-4801-bd68-3788ef1de84f/psikolojik-yardim-surecinde-terapotik-bir-hedef-olarak-icgoru", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -241,7 +241,7 @@ const publications = [
         authors: "Akdoğan R., Ceyhan E.",
         journal:
           "CURRENT APPROACHES IN PSYCHIATRY, cilt.3, sa.1, ss.117-141, 2011 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf22", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/d7f8aba5-2d60-4483-83bf-51dfd868a115/terapotik-iliskide-insan-faktoru", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
       {
@@ -251,7 +251,7 @@ const publications = [
         authors: "Türküm A. S., Akdoğan R.",
         journal:
           "Türk Psikolojik Danışma ve Rehberlik Dergisi, cilt.3, sa.27, ss.123-137, 2007 (Hakemli Dergi)",
-        pdfLink: "https://example.com/pdf23", // Example link, replace with a real link
+        pdfLink: "https://avesis.anadolu.edu.tr/yayin/c1573185-13bc-4c32-b1a7-5cebaa5c5196/grupla-psikolojik-danismada-bir-profesyonel-ve-bir-birey-olarak-lider", // Example link, replace with a real link
         gradient: "linear-gradient(135deg, #1565C0, #1976D2)", // Dark blue gradient with one tone lighter
       },
     ],
