@@ -14,7 +14,7 @@ const projects = [
         "Çelik S.",
         "et al."
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     },
     {
       year: "2020 - 2021",
@@ -30,7 +30,7 @@ const projects = [
         "Tomris G.",
         "et al."
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     },
     {
       year: "2018 - 2020",
@@ -46,7 +46,7 @@ const projects = [
         "Atik Kara D.",
         "et al."
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     },
     {
       year: "2018 - 2019",
@@ -58,7 +58,7 @@ const projects = [
         "ÇİMŞİR E. (Yürütücü)",
         "AKDOĞAN R."
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     },
     {
       year: "2018 - 2019",
@@ -70,7 +70,7 @@ const projects = [
         "TÜMLÜ C.",
         "ÇİMŞİR E."
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     },
     {
       year: "2017 - 2018",
@@ -81,7 +81,7 @@ const projects = [
         "ÇİMŞİR E.",
         "AKDOĞAN R. (Yürütücü)"
       ],
-      gradient: "linear-gradient(-120deg, #f4a73f 0%, #f87b3f 100%)",
+      gradient: "linear-gradient(-120deg, #f2a44d 0%, #f87c4e 100%)",
     }
   ];
 

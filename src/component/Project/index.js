@@ -1,10 +1,10 @@
 import React from "react";
-import projectData from "./projectData"; // Proje verilerini içe aktar
+import projectData from "./projectData";
 
 const Project = () => {
   return (
     <div className="container mx-auto flex flex-col flex-grow justify-center pb-8 px-4">
-      <h1 className="text-3xl md:text-3xl font-bold text-gray-500 dark:text-gray-100 mb-6 animate-fadeIn">
+      <h1 className="text-3xl md:text-3xl font-bold text-gray-500 dark:text-gray-100 mb-6 animate-fadeIn p-4">
         Desteklenen Projeler
       </h1>
       <div className="relative">
@@ -20,16 +20,16 @@ const Project = () => {
               <div
                 className="flex flex-col p-0 w-full rounded-lg shadow-md relative transition-transform transform hover:scale-105 hover:shadow-xl"
                 style={{
-                  backgroundColor: "#ffbf80", // Ana kutu için turuncu renk
+                  backgroundColor: "#ffbf80", 
                   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
                 }}
               >
-                {/* Başlık ve Tarih için Gradyan Arka Plan */}
+           
                 <div
                   className="p-4 w-full rounded-t-lg"
                   style={{
-                    background: project.gradient, // Gradyanlı arka plan
-                    padding: '2rem', // Padding eklendi
+                    background: project.gradient,
+                    padding: '2rem', 
                   }}
                 >
                   <h2 className="text-lg md:text-xl font-semibold text-white mb-1 text-left">
@@ -40,7 +40,7 @@ const Project = () => {
                   </h3>
                 </div>
 
-                {/* Proje İçeriği */}
+          
                 <div className="p-6 text-left text-white">
                   {project.type && (
                     <p className="mb-1">

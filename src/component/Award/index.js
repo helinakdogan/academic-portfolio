@@ -13,7 +13,7 @@ const Award = () => {
               <div className="flex flex-col items-start w-full">
                 <div
                   className="award-box p-6 rounded-lg shadow-md w-full transition-transform transform hover:scale-105 hover:shadow-xl"
-                  style={{ background: "linear-gradient(to top, #e6b980 0%, #eacda3 100%)" }}
+                  style={{ background: "linear-gradient(to top, #f2b54c 0%, #d9a94b 100%)" }}
                 >
                   <h2 className="text-lg md:text-xl font-semibold text-white mb-1">
                     Akademik Üstün Başarı Ödülü

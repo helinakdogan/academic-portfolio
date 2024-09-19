@@ -1,9 +1,7 @@
 const levelGradients = {
-  "Lisans": "linear-gradient(135deg, #ADD8E6, #87CEFA)",
-  "Yüksek Lisans": "linear-gradient(135deg, #FFB6C1, #FF6F6F)"
+  "Lisans": "linear-gradient(-135deg, #7FB8E8, #3A7BD5)", 
+  "Yüksek Lisans": "linear-gradient(-135deg, #F59CA1, #F54C4C)" 
 };
-
-
 
   const applyLevelGradients = (sections) => {
   return sections.map(section => ({
