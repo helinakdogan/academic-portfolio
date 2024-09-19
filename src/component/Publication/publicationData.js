@@ -265,140 +265,140 @@ const publications = [
         "title": "THE ROLE OF INFERIORITY IN THE INCREASE OF EMOTION DYSREGULATION AND INTERNET ADDICTION AMONG TURKISH YOUTH",
         "authors": "Akdoğan R., Çimşir E.",
         "journal": "International Conference on Research in Education and Social Sciences (ICRESS), Baku, Azerbaycan, 1 - 04 Temmuz 2022",
-        "pdfLink": "https://example.com/pdf22"
+        "pdfLink": "https://www.2022.icress.net/"
       },
       {
         "year": "2022",
         "title": "RETURNING TO TURKEY AFTER INTERNATIONAL POSTGRADUATE STUDY AND TRANSITIONING AS A SCHOLAR: AN INTERPRETIVE PHENOMENOLOGY",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "International Conference on Research in Education and Social Sciences (ICRESS), Baku, Azerbaycan, 1 - 04 Temmuz 2022",
-        "pdfLink": "https://example.com/pdf23"
+        "pdfLink": "https://www.2022.icress.net/"
       },
       {
         "year": "2019",
         "title": "Engelli Çocuğa Sahip Ebeveynlerin Psikolojik Yaşantılarına Yönelik Fenomenolojik Bir Araştırma",
         "authors": "Ülker Tümlü G., Akdoğan R.",
         "journal": "VI. International Eurasian Educational Research Congress, Ankara, Türkiye, 19 - 22 Haziran 2019",
-        "pdfLink": "https://example.com/pdf24"
+        "pdfLink": "https://drive.google.com/file/d/1OyVSrMf0PyEMWx9CiGRhnRg5nDXyT6xa/view"
       },
       {
         "year": "2018",
         "title": "The Relationships Between Insight, Subjective Happiness and Relationship Satisfaction",
         "authors": "Akdoğan R., Çimşir E.",
         "journal": "International Conference on Education and Social Sciences, Kyyiv, Ukrayna, 17 - 18 Kasım 2018",
-        "pdfLink": "https://example.com/pdf25"
+     
       },
       {
         "year": "2018",
         "title": "Eğitim Fakültesi Öğrencilerinin İçgörü Düzeyleri, Akademik Branş Memnuniyetleri ve Yaşam Doyumları",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "20. Uluslararası Psikolojik Danışma ve Rehberlik Kongresi, Samsun, Türkiye, 25 - 27 Ekim 2018",
-        "pdfLink": "https://example.com/pdf26"
+      
       },
       {
         "year": "2018",
         "title": "Kendini Saklamanın Yetersizlik Duygusu ile Yalnızlık Arasındaki İlişkisel Aracılık Rolü",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "20. Uluslararası Psikolojik Danışma ve Rehberlik Kongresi, Samsun, Türkiye, 25 - 27 Ekim 2018",
-        "pdfLink": "https://example.com/pdf27"
+       
       },
       {
         "year": "2018",
         "title": "Engelli Çocuğu Kabullenme: Annelerle Nitel Bir Çalışma",
         "authors": "Tümlü C., Akdoğan R.",
         "journal": "II. Uluslararası Erken Çocuklukta Müdahale Kongresi, Ankara, Türkiye, 28 Mart - 01 Nisan 2018",
-        "pdfLink": "https://example.com/pdf28"
+        "pdfLink": "https://www.researchgate.net/publication/324208577_Conference_2nd_INTERNATIONAL_CONGRESS_ON_EARLY_CHILDHOOD_INTERVENTION_ICECI2018At_Antalya-TURKEY"
       },
       {
         "year": "2018",
         "title": "Otizm Spektrum Bozukluğu (OSB) Üzerinde Dolaylı Bir Faktör Olarak Ailenin Psikolojik Sağlığı",
         "authors": "Tümlü C., Akdoğan R., Diken İ. H.",
         "journal": "2. Uluslararası Erken Çocuklukta Müdahale Kongresi, Antalya, Türkiye, 29 Mart 2018",
-        "pdfLink": "https://example.com/pdf29"
+   
       },
       {
         "year": "2018",
         "title": "Türkiye’deki okullarda psikolojik danışman/rehber öğretmen başına düşen öğrenci sayısı ve engelli öğrencilerin erken tanılanması",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "2. Uluslararası Erken Çocuklukta Müdahale Kongresi (ICECI 2018), Gaziantep, Türkiye, 29 Mart - 01 Nisan 2018",
-        "pdfLink": "https://example.com/pdf30"
+      
       },
       {
         "year": "2017",
         "title": "Inferiority feelings and loneliness mediate between perception of loneliness and subjective happiness",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "WEI International European Academic Conference on Education and Humanities, Rome, İtalya, 13 - 15 Kasım 2017",
-        "pdfLink": "https://example.com/pdf31"
+       
       },
       {
         "year": "2017",
         "title": "Marriage satisfaction dynamics of parents of children with autism: A mixed method study",
         "authors": "Tümlü C., Akdoğan R.",
         "journal": "WEI International European Academic Conference on Education and Humanities, Rome, İtalya, 13 - 15 Kasım 2017",
-        "pdfLink": "https://example.com/pdf32"
+        
       },
       {
         "year": "2017",
         "title": "Being a parent of a disabled child: Is it the basic problem to accept?",
         "authors": "Akdoğan R.",
         "journal": "Conference of the International Society for the Study of Individual Differences, Warszawa, Polonya, 24 - 28 Temmuz 2017",
-        "pdfLink": "https://example.com/pdf33"
+        
       },
       {
         "year": "2016",
         "title": "Grupla Psikolojik Danışmanın Engelli Çocuğa Sahip Ebeveynlerin Psikolojik Belirti Düzeyleri ile Yaşam Doyumuna Etkisi",
         "authors": "Tümlü C., Akdoğan R.",
         "journal": "VI. Ulusal PDR Uygulamaları Kongresi, Gaziantep, Türkiye, 01 Aralık 2016",
-        "pdfLink": "https://example.com/pdf34"
+    
       },
       {
         "year": "2015",
         "title": "Development of Insight Scale IS for University Students Validity and Reliability Analysis",
         "authors": "Akdoğan R., Türküm A. S.",
         "journal": "International Conference on Education Psychology and Social Sciences ICEPS August 6-8 Grand Otel Taipei Taiwan",
-        "pdfLink": "https://example.com/pdf35"
+      
       },
       {
         "year": "2015",
         "title": "A group counseling based on Reality therapy for parents with disabled children",
         "authors": "Ülker Tümlü G., Akdoğan R.",
         "journal": "37th Annual Conference of the International School Psychology Association, Sao-Paulo, Brezilya, 24 - 27 Haziran 2015",
-        "pdfLink": "https://example.com/pdf36"
+        "pdfLink": "https://abrapee.wordpress.com/wp-content/uploads/2015/10/anais-xii-conpe_final_caderno-de-resumos.pdf"
       },
       {
         "year": "2015",
         "title": "A Group Counseling Based On Reality Therapy On Psychological Needs Of Parents With Disabled Children",
         "authors": "Ülker Tümlü G., Akdoğan R.",
         "journal": "XII National Congress of School and Educational Psychology - ABRAPEE and 37th Annual Conference of the International School Psychology Association – ISPA. 24-27 Haziran, Sao Paulo-Brezilya",
-        "pdfLink": "https://example.com/pdf37"
+      
       },
       {
         "year": "2015",
         "title": "The Effect Of Group Counseling On Psychological Difficulties Of Caregivers With Disabled Children",
         "authors": "Akdoğan R.",
         "journal": "XII National Congress of School and Educational Psychology - ABRAPEE and 37th Annual Conference of the International School Psychology Association – ISPA. 24-27 Haziran, Sao Paulo-Brezilya",
-        "pdfLink": "https://example.com/pdf38"
+       
       },
       {
         "year": "2015",
         "title": "Engelli Çocuğa Yaklaşımda Koruyucu Tutum",
         "authors": "Akdoğan R.",
         "journal": "1. Ulusal Gelişim Psikolojisi Kongresi, Ankara, Türkiye, 26 - 28 Kasım 2015",
-        "pdfLink": "https://example.com/pdf39"
+   
       },
       {
         "year": "2014",
         "title": "Özel Eğitim Öğretmenlerinin İş Doyumu ve Mesleki Büyüme Düzeyleri Üzerine Bir Araştırma",
         "authors": "Akdoğan R.",
         "journal": "VII. Uluslararası Eğitim Bilimleri Kongresi, Bilecik, Türkiye, 17 - 19 Nisan 2014",
-        "pdfLink": "https://example.com/pdf40"
+     
       },
       {
         "year": "2014",
         "title": "Sosyal Destek ve Engelli Çocuğa Sahip Ebeveynlerin Psikolojik Sağlığı",
         "authors": "Akdoğan R.",
         "journal": "VII. Uluslararası Eğitim Bilimleri Kongresi, Bilecik, Türkiye, 17 - 19 Nisan 2014",
-        "pdfLink": "https://example.com/pdf41"
+        
       }
     ]
   },
@@ -411,98 +411,92 @@ const publications = [
         "title": "Ergenlik ve ergen bireye yaklaşım",
         "authors": "Akdoğan R. (Editör), Çimşir E. (Editör)",
         "journal": "Anı Yayıncılık, Ankara, 2021",
-        "pdfLink": "https://example.com/pdf21"
+        "pdfLink": "https://aniyayincilik.com.tr/"
       },
       {
         "year": "2020",
         "title": "Pandemi Dönemi ve Ruh Sağlığı",
         "authors": "Çimşir E., Akdoğan R.",
         "journal": "PANDEMİ DÖNEMİNDE EĞİTİM: İyileştirelim, İyileşelim, Dilruba Kürüm-Yapıcıoğlu, Editör, Anı Yayıncılık, ss.1-18, 2020",
-        "pdfLink": "https://example.com/pdf22"
       },
       {
         "year": "2017",
         "title": "Engellilerde Ruh Sağlığı",
         "authors": "Akdoğan R.",
         "journal": "Anadolu Üniversitesi Yayınları, Eskişehir, 2017",
-        "pdfLink": "https://example.com/pdf23"
       },
       {
         "year": "2017",
         "title": "Yaşlılarda Davranış Sorunları ve Uyum",
         "authors": "Akdoğan R.",
         "journal": "Anadolu Üniversitesi Yayınları, Eskişehir, 2017",
-        "pdfLink": "https://example.com/pdf24"
       },
       {
         "year": "2017",
         "title": "Ergenlik Dönemi Öğrencilere Kurumda Gelişimsel Destek",
         "authors": "Akdoğan R.",
         "journal": "Anadolu Üniversitesi Yayınları, Eskişehir, 2017",
-        "pdfLink": "https://example.com/pdf25"
       },
       {
         "year": "2017",
         "title": "0-3 Yaş Çocukların Ebeveynlerine Evde Psiko-Sosyal Destek",
         "authors": "Akdoğan R.",
         "journal": "0-3 Yaş Çocuklara Evde Gelişimsel Destek, Yanardağ, Mehmet, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.182-202, 2017",
-        "pdfLink": "https://example.com/pdf26"
       },
       {
         "year": "2017",
         "title": "0-3 Yaş Çocuklarına Kurumda Psiko-Sosyal Destek",
         "authors": "Akdoğan R.",
         "journal": "0-3 Yaş Öğrencilere Kurumda Gelişimsel Destek, Diken, İbrahim H., Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.172-199, 2017",
-        "pdfLink": "https://example.com/pdf27"
       },
       {
         "year": "2017",
         "title": "Evde Uyumu Bozucu Davranışlarla Başa Çıkma",
         "authors": "Akdoğan R.",
         "journal": "Ergenlik Dönemi Bireylere Evde Gelişimsel Destek, Düzkantar, Ayten, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.172-195, 2017",
-        "pdfLink": "https://example.com/pdf28"
+
       },
       {
         "year": "2017",
         "title": "Öğrenme Psikolojisi",
         "authors": "Akdoğan R.",
         "journal": "Eğitim Psikolojisi, Bayrak, Coşkun, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.126-148, 2017",
-        "pdfLink": "https://example.com/pdf29"
+       
       },
       {
         "year": "2017",
         "title": "Engelli Ruh Sağlığı ve İlişkili Kavramlar",
         "authors": "Akdoğan R., Ülker Tümlü G.",
         "journal": "Engellilerde Ruh Sağlığı, Akdoğan, Ramazan, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.1-23, 2017",
-        "pdfLink": "https://example.com/pdf30"
+       
       },
       {
         "year": "2017",
         "title": "Çifte Dezavantaj Durumları ve Ruh Sağlığı",
         "authors": "Akdoğan R., Ülker Tümlü G.",
         "journal": "Engellilerde Ruh Sağlığı, Akdoğan, Ramazan, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.195-217, 2017",
-        "pdfLink": "https://example.com/pdf31"
+       
       },
       {
         "year": "2016",
         "title": "Gelişim Psikolojisinde Kullanılan Araştırma Yöntemleri",
         "authors": "Akdoğan R.",
         "journal": "Yaşlı Psikolojisi, Kurtyılmaz, Yıldız, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.42-59, 2016",
-        "pdfLink": "https://example.com/pdf32"
+       
       },
       {
         "year": "2016",
         "title": "Yaşlılıkta Özgüven",
         "authors": "Akdoğan R.",
         "journal": "Psikososyal Rehabilitasyon, Balkaya Çetin, Ayşen, Editör, Anadolu Üniversitesi Yayınları, Eskişehir, ss.82-102, 2016",
-        "pdfLink": "https://example.com/pdf33"
+       
       },
       {
         "year": "2014",
         "title": "Bireysel Farklılıkların Psikolojik Temelleri-I",
         "authors": "Akdoğan R., Çağlar A.",
         "journal": "Bireysel Farklılıklar, Ardıç, A. Editör, Vize Yayınları, Ankara, ss.39-54, 2014",
-        "pdfLink": "https://example.com/pdf34"
+       
       }
     ]
   }

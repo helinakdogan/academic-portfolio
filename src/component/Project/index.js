@@ -18,31 +18,41 @@ const Project = () => {
           >
             <div className="flex flex-col items-start md:pl-24 w-full md:w-4/5 lg:w-3/4 xl:w-2/3 mx-auto">
               <div
-                className="flex items-start justify-between w-full p-6 rounded-lg shadow-md relative transition-transform transform hover:scale-105 hover:shadow-xl"
+                className="flex flex-col p-0 w-full rounded-lg shadow-md relative transition-transform transform hover:scale-105 hover:shadow-xl"
                 style={{
-                  background: project.gradient,
+                  backgroundColor: "#ffbf80", // Ana kutu için turuncu renk
                   boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)",
-                  maxWidth: "100%",
                 }}
               >
-                <div className="flex-1 text-left">
-                  <h2 className="text-lg md:text-xl font-semibold text-white mb-1">
+                {/* Başlık ve Tarih için Gradyan Arka Plan */}
+                <div
+                  className="p-4 w-full rounded-t-lg"
+                  style={{
+                    background: project.gradient, // Gradyanlı arka plan
+                    padding: '2rem', // Padding eklendi
+                  }}
+                >
+                  <h2 className="text-lg md:text-xl font-semibold text-white mb-1 text-left">
                     {project.year}
                   </h2>
-                  <h3 className="text-xl md:text-2xl font-bold text-white mb-1">
+                  <h3 className="text-xl md:text-xl font-bold text-white mb-1 text-left">
                     {project.title}
                   </h3>
+                </div>
+
+                {/* Proje İçeriği */}
+                <div className="p-6 text-left text-white">
                   {project.type && (
-                    <p className="text-white mb-1">
+                    <p className="mb-1">
                       <strong>Tür:</strong> {project.type}
                     </p>
                   )}
                   {project.summary && (
-                    <p className="text-white mb-1">
+                    <p className="mb-1">
                       <strong>Özet:</strong> {project.summary}
                     </p>
                   )}
-                  <p className="text-white mb-1">
+                  <p className="mb-1">
                     <strong>Ekip:</strong> {project.team.join(", ")}
                   </p>
                 </div>

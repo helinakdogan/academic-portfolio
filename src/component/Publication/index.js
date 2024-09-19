@@ -69,12 +69,16 @@ const PublicationTimeline = () => {
                             <p className="text-white">{pub.description}</p>
                           )}
                         </div>
-                        <button
-                          onClick={() => openModal(pub)}
-                          className="absolute bottom-3 right-3 px-4 py-2 bg-white text-gray-500 font-semibold rounded shadow-md hover:bg-blue-50 transition duration-200"
-                        >
-                          Detayları Gör
-                        </button>
+
+                        {/* PDF Link kontrolüyle butonun eklenmesi */}
+                        {pub.pdfLink && (
+                          <button
+                            onClick={() => openModal(pub)}
+                            className="absolute bottom-3 right-3 px-4 py-2 bg-white text-gray-500 font-semibold rounded shadow-md hover:bg-blue-50 transition duration-200"
+                          >
+                            Detayları Gör
+                          </button>
+                        )}
                       </div>
                     </div>
                   </div>
